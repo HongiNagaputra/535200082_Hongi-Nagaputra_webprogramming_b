@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+#logo{
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+#background{
+    background: linear-gradient(rgb(153,254,255),rgb(79,108,255));
+    background-position: center;
+    height: 100vh;
+}
+
+.banner{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.banner-text{
+    border: 5px solid black;
+    position: relative;
+    top: 120px;
+    margin-right: 80px;
+    background: linear-gradient(rgb(79,108,255),rgb(153,254,255));
+    border-radius: 20px;
+}
+
+.banner-text h1{
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    padding: 25px 0px;
+    color: white;
+    font-style: bold;
+    font-size: 70px;
+    text-align: center;
+    outline-color: black;
+}
+
+.banner-text p{
+    padding: 10px 15px;
+    font-size:20px;
+}
+
+.gedung img{
+    width: 100vh;
+    border-bottom-left-radius: 500px;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
