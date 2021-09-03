@@ -1,0 +1,3 @@
+Penggunaan tag yang terdapat pada HTML. Setiap tag yang ada dalam HTML dapat dijadikan sebagai selector.
+Contoh : 
+h1 {color : red; }

@@ -1,0 +1,3 @@
+General sibling selector memilih semua elemen yang merupakan saudara kandung dari elemen yang ditentukan.
+Contoh berikut memilih semua elemen <p> yang merupakan saudara dari elemen <div>:
+Saat menulis general sibling selector selector harus dipisahkan dengan kombinator “~”

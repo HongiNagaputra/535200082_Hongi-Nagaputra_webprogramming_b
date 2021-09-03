@@ -1,0 +1,4 @@
+Hampir sama dengan class selector, ID selector bersifat unik dan dapat diterapkan untuk hampir semua tag HTML, tetapi penggunaanya hanya sekali dalam satu halaman untuk satu tag HTML tertentu. Penggunaan ID selector menggunakan awalan tanda pagar “#” untuk inisialisasi sebuah nama id yang sudah dibuat pada dokumen HTML.
+Sekali lagi di tekankan selector ID digunakan hanya untuk 1 elemen pada satu
+halaman web. Misalnya saja ID #footer diatas hanya digunakan sekali karena
+dalam satu halaman web hanya ada 1 id footer.

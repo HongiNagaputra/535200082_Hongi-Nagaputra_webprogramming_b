@@ -1,0 +1,13 @@
+Atribut media menentukan perangkat output yang dimaksudkan untuk digunakan dengan dokumen:
+media = "screen"
+Meskipun atribut ini tidak selalu digunakan, ini penting karena orang mengakses Internet dengan cara yang berbeda menggunakan perangkat yang berbeda. 
+screen: screen	Layar komputer (seperti komputer desktop dan laptop)
+tty: tty	Media dengan kisi karakter pitch tetap, seperti teletype, terminal, atau perangkat portabel dengan kemampuan tampilan terbatas
+Tv:	Perangkat TV dengan resolusi rendah, layar warna, dan kemampuan terbatas untuk menggulir ke bawah halaman
+print: Dokumen tercetak, yang kadang-kadang disebut media paged (dan dokumen ditampilkan di layar dalam mode pratinjau cetak (preview mode)
+projection: Projector
+handheld: Perangkat genggam, yang sering memiliki layar kecil, bergantung pada grafik yang dipetakan, dan memiliki bandwidth terbatas
+braille	Perangkat umpan balik sentuhan Braille
+embossed: Printer beranda braille
+speech: Penyintesis ucapan
+all: Cocok untuk semua perangkat
