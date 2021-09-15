@@ -1,0 +1,9 @@
+Element	1	Node.ELEMENT_NODE
+Attribute	2	Node.Attribute_NODE
+Text	3	Node.TEXT_NODE
+CData	4	Node.CDATA_SECTION_NODE
+Intruction	7	Node.PROCESSING_INSTRUCTION_NODE
+Comment	8	Node.COMMENT_NODE
+Document	9	Node.DOCUMENT_NODE
+Document Type	10	Node.DOCUMENT_TYPE_NODE
+Document Fragment	11	Node.DOCUMENT_FRAGMENT_NODE

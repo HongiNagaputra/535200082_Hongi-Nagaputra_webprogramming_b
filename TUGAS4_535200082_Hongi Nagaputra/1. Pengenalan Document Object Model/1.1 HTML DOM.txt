@@ -1,0 +1,6 @@
+DOM membuat sebuah dokumen HTML sebagai struktur tree dengan elemen, atribut dan text, sehingga dengan DOM dapat dikatakan : 
+1.	Semua yang ada di dalam dokumen HTML adalah sebuah node.
+2.	Setiap tag HTML adalah sebuah elemen node.
+3.	Teks dalam HTML adalah teks node.
+4.	Setiap atribut HTML adalah atribut node.
+5.	Comment adalah comment node.

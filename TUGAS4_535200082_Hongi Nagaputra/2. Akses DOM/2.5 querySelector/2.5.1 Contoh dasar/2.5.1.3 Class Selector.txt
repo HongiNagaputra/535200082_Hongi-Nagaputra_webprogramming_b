@@ -1,0 +1,6 @@
+Untuk Mencari elemen yang sudah diberikan atribut class, Kita dapat menggunakan class selector.
+Sintaks : 
+mencari elemen dengan class menu-item yang akan ditampilkan adalah yang pertama kali ditemukan.
+let note = document.querySelector('.menu-item');
+Mencari seluruh elemen dengan class menu-item.
+let notes = document.querySelectorAll('.menu-item');

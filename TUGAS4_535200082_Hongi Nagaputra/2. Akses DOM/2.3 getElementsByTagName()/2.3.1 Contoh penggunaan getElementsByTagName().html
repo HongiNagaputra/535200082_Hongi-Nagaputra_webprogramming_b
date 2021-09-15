@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>javascript</h1>
+    <h2>heading</h2>
+    <p>first par</p>
+    <h2>heading</h2>
+    <p>sec par</p>
+    <h3>heading</h3>
+    <p>third par</p>
+    <button id="btnCount">Count H2</button>
+
+    <script>
+        let btn = document.getElementById('btnCount');
+        btn.addEventListener('click', () => {
+            let headings = document.getElementsByTagName('h2');
+            alert(`The number tag: ${headings.length}`);
+        });
+    </script>
+</body>
+</html>

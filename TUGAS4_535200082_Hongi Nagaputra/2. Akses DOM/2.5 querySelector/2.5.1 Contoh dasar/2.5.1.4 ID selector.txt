@@ -1,0 +1,5 @@
+Untuk memilih elemen berdasarkan nilai dari suatu Id, Kita dapat menggunakan Id Selector.
+Sintaks : 
+Memilih elemen yang pertama kali ditemukan dengan id logo
+let logo = document.querySelector('#logo');
+karena Id harus bersifat unik maka Kita tidak dapat menggunakan querySelectorAll( ) secara relevan.

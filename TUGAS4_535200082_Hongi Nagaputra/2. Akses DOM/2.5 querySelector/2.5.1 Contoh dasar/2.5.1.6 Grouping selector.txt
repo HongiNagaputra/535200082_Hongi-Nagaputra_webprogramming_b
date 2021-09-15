@@ -1,0 +1,5 @@
+Untuk mengelompokan berbagai selector, Kita dapat menggunakan sintaks : 
+selector, selector, ...
+Contoh Kita akan mencari seluruh elemen <div> dan <p> : 
+let elements = document.querySelectorAll('<div>, <p>');
+maka yang akan dipilih adalah elemen pertama yang ditemukan terlebih dahulu antara elemen div atau p yang akan dimanipulasi.

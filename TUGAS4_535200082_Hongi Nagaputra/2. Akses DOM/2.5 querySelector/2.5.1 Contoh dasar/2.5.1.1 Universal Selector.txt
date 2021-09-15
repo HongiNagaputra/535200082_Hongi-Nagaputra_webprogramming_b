@@ -1,0 +1,4 @@
+Universal selector ditandai dengan simbol asterik ( * ) yang mencocokan dengan semua elemen jenis apapun.
+sintaks : 
+let element = document.querySelector('*');
+let elements = document.querySelectorAll('*');

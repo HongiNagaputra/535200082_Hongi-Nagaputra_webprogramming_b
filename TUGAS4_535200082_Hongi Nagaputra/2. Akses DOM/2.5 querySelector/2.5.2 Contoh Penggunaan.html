@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="" alt="logo" id="logo">
+        </div>
+        <nav class="primary-nav">
+            <ul>
+                <li class="menu-item current"><a href="#home">home</a></li>
+                <li class="menu-item"><a href="#services">services</a></li>
+                <li class="menu-item"><a href="#about">avout</a></li>
+                <li class="menu-item"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>welcome to js dev agency</h1>
+        <div class="container">
+            <section class="section-a">
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum</p>
+                <button>read more</button>
+            </section>
+            <section class="section-b">
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum</p>
+                <button>read more</button>
+            </section>
+            <section class="section-c">
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum</p>
+                <button>read more</button>
+            </section>
+        </div>
+    </main>
+    <br>
+    <button onclick="myUniversal()">Univ sel</button>
+    <button onclick="myType()">Type sel</button>
+    <button onclick="myClass()">class sel</button>
+    <button onclick="myId()">Id sel</button>
+    <button onclick="myAttribute()">Attr sel</button>
+    <button onclick="myGroup()">Group sel</button>
+    <script>
+        function myUniversal(){
+            document.querySelector("*").style.backgroundColor="red";
+        }
+        function myType(){
+            document.querySelector("h1").style.backgroundColor="blue";
+        }
+        function myClass(){
+            document.querySelector(".container").style.backgroundColor="yellow";
+        }
+        function myId(){
+            document.querySelector("#logo").style.backgroundColor="blue";
+        }
+        function myAttribute(){
+            document.querySelector("a[target]").style.backgroundColor="red";
+        }
+        function myGroup(){
+            document.querySelector("h2,h1").style.backgroundColor="red";
+        }
+    </script>
+</body>
+</html>

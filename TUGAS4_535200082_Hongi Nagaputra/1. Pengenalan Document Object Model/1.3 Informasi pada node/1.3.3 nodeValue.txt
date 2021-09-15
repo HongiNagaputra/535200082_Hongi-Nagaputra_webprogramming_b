@@ -1,0 +1,1 @@
+Dalam teks node, properti nodeValue berisi teks. Dalam atribut node, properti nodeValue berisi nilai atribut. properti nodeValue tidak tersedia dalam dokumen dan elemen node.

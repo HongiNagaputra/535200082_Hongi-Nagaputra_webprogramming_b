@@ -1,0 +1,5 @@
+Properti nodeName berisi nama node.
+-	nodeName dari sebuah elemen adalah nama tag.
+-	nodeName dari sebuah atribut adalah nama atribut.
+-	nama dari sebuah teks node selalu #text
+-	nama dari node dokumen selalu #document

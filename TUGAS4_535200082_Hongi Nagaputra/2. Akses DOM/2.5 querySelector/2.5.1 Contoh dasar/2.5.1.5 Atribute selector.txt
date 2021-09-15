@@ -1,0 +1,12 @@
+Untuk memilih semua elemen yang memiliki atribut tertentu, Kita  menggunakan salah satu dari Attribute Selector berikut : 
+•	[attribute]
+•	[attribute=value]
+•	[attribute~=value]
+•	[attribute|=value]
+•	[attribute^=value]
+•	[attribute$=value]
+•	[attribute*$*=value]
+Contoh Kita mencari elemen pertama pada elemen dengan atribut “[autoplay]” dengan nilai apapun : 
+let autoplay = document.querySelector('[autoplay]');
+dan contoh berikut menemukan semua elemen yang memiliki atribut “[autoplay]” dengan nilai apapun : 
+let autoplays = document.querySelectorAll('[autoplay]');
