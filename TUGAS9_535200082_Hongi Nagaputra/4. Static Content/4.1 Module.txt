@@ -1,0 +1,1 @@
+Modul adalah sebuah library javascript atau file yang dapat diimport kedalam sebuah code lain menggunakan fungsi require(). Contoh modul adalah express yang sudah Kita gunakan pada bab sebelumnya. 

@@ -1,0 +1,4 @@
+Middlewares merupakan sebuah fungsi yang melakukan beberapa operasi pada permintaan atau respons dan kemudian memanggil fungsi berikutnya dalam tumpukan yang bisa berupa middlelware lain atau pengendali rute (route handler)
+Middleware dapat melakukan operasi apa pun, menjalankan kode apa pun, membuat perubahan pada objek permintaan dan respons dan juga dapat mengirim siklus permintaan-respons
+Ada beberapa 3rd party middleware yang membantu mempermudah tugas dari web development. Dan dapat diinstall menggunakan node npm.
+Contoh fungsi middleware yang sudah ada pada express (bawaan / built in) adalah express.static( ) digunakan untuk melayani file statis
